@@ -1,6 +1,6 @@
 microservice:
   example:
-    greeting: "Hallouooooo!"
+    greeting: "Essa informação está voltando do github"
   jwt:
     secret: "123123sdasdgahksjgdg"
   datasource:
