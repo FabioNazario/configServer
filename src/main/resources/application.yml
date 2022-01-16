@@ -1,11 +1,13 @@
 server:
   port: 8888
 spring:
-  profiles:
-    active: native
+  application:
+    name: configServer
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/FabioNazario/configServer/blob/main/config.yml
-    
+          uri: https://github.com/FabioNazario/config-repo
+          default-label: main
+logging:
+  config: https://raw.githubusercontent.com/FabioNazario/config-repo/main/logback.xml
