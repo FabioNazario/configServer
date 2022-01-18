@@ -1,8 +1,0 @@
-microservice:
-  example:
-    greeting: "Essa informação está voltando do github"
-  jwt:
-    secret: "123123sdasdgahksjgdg"
-  datasource:
-    user: "root"
-    pass: "12345645"
